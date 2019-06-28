@@ -7,7 +7,7 @@ server.use(express.json());
 // Route Params = /users/1
 // Request Body = { "name: "Pedro", "email:" "phpioner@gmail.com"}
 
-const users = ["Pedro", "Felipe", "Otavio"];
+const users = ["Pedro Pioner", "Felipe", "Otavio"];
 
 server.use((req, res, next) => {
   console.time("Request");
